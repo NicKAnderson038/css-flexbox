@@ -5,7 +5,7 @@
 
 ##### Display Flex parent level properties
 
-1. `flex-flow`,
+1. `flex-flow`
 this contains flex-direction & flex-wrap.
 
 Example:
