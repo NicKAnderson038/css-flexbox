@@ -61,5 +61,5 @@ All these `<div>` will have there blank spaces adjusted. So `align-content:space
 
 #
 
-##### Display Flex items (single <div>)
+##### Display Flex items **single "div"
 
