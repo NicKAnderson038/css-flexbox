@@ -85,3 +85,4 @@ Ex. `flex-direction: row` in parent and set `align-self:flex-start` on the child
 flex: 0 1 auto;
 ```
 - flex-grow will grow will increase the width to fill the whole page.
+- And if the first div is set to `flex-grow:1` and the second div is set to `flex-grow:2` They will both grow but at a 2:1 ratio.
