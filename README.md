@@ -28,6 +28,22 @@ main axis starts on the Left--->
       |
       cross axis
 ```
+&
+```bash
+# flex-direction: column
+|---->Cross axis starts from Right
+|                          
+|                            
+Main Axis heads DOWN
+```
+&
+```bash
+# flex-direction: column-reverse
+Main Axis heads UP
+|
+|                          
+|---->Cross axis starts from Right        
+```
 #
 
 
