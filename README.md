@@ -31,7 +31,7 @@ main axis starts on the Left--->
 
 ```bash
 # flex-direction: column
-|---->Cross axis starts from Right
+|---->Cross axis Left--->Right
 |                          
 |                            
 Main Axis heads TOP--->BOTTOM
@@ -42,7 +42,7 @@ Main Axis heads TOP--->BOTTOM
 Main Axis heads BOTTOM--->UP
 |
 |                          
-|---->Cross axis starts from Right        
+|---->Cross axis Left--->Right       
 ```
 #
 
