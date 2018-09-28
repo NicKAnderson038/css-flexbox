@@ -13,17 +13,20 @@ Example:
 flex-flow: row wrap;
 ```
 flex-direction functions by Main Axis vs. cross axis concept
-`flex-direction: row`
+```bash
+# flex-direction: row
 ---> main axis
 |
 |
 cross axis
+```
 &
-`flex-direction: row-reverse`
+```bash
+# flex-direction: row-reverse
 <-----|
       |
       |
-
+```
 #
 
 
