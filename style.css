@@ -33,7 +33,7 @@ body {
   margin: 5px;
   width: 150px;
   font-size: 30px;
-  align-self: flex-start;
+  /* align-self: flex-start; */
 }
 
 .div3 {
@@ -53,6 +53,7 @@ body {
   background-color: #0063f8;
   margin: 5px;
   width: 200px;
+  flex: 0 1 auto;
 }
 
 .div6 {

@@ -65,10 +65,15 @@ All these `<div>` will have there blank spaces adjusted. So `align-content:space
 
 *** All these child properties are affected by flex-flow!
 
-1. order property
+1. `order` property
 Ex. `order:1` on the first div would position it last. All other divs are treated as `order:0` by default.
 
 #
 
-2. align-self property - based on parent cross-axis
-Ex. `flex-direction: row` in parent and set `align-self:flex-start` would place the child div at the top of the page.
+2. `align-self` property - based on parent cross-axis
+Ex. `flex-direction: row` in parent and set `align-self:flex-start` on the child div would set it at the top of the page.
+
+#
+
+2. `flex` - contains 3 properties (`flex-grow`, `flex-shrink`, `flex-basis`)
+Ex. 
