@@ -5,8 +5,8 @@
 
 ##### Display Flex parent level properties
 
-1. flex-flow
-This contains flex-direction & flex-wrap.
+1. flex-flow,
+this contains flex-direction & flex-wrap.
 
 Example:
 ```bash
@@ -48,6 +48,10 @@ Main Axis heads UP^
 
 
 2. align-items
+
+Only reffers to the position of the items relating to the cross-axis
+So, if `flex-direction: column` then it's starting point is left ---> right.
+And if `flex-direction: row` then the cross axis starts top ---> bottom.
 
 #
 

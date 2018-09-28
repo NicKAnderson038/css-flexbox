@@ -4,58 +4,58 @@ html {
 }
 
 body {
-  background-color: yellow;
+  background-color: rgb(0, 132, 255);
   padding: 10px;
   margin: 0;
 }
 
 /*flexbox*/
 .parent {
-  background-color: #f073e1;
+  background-color: #f07373;
   margin: 10px;
   padding: 30px;
   /* height: 500px; */
   display: flex;
   /*flex-flow == flex-direction & flex-wrap*/
-  flex-flow: column wrap;
-  /* align-items: center;
+  flex-flow: row wrap;
+  align-items: center;
   justify-content: center;
-  align-content: flex-start; */
+  /* align-content: flex-start; */
 }
 
 .div1 {
-  background-color: #f800db;
+  background-color: #a1f800;
   margin: 5px;
 }
 
 .div2 {
-  background-color: #f800db;
+  background-color: #00f821;
   margin: 5px;
   width: 150px;
   font-size: 30px;
 }
 
 .div3 {
-  background-color: #f800db;
+  background-color: #00f8ae;
   margin: 5px;
   height: 150px;
 }
 
 .div4 {
-  background-color: #f800db;
+  background-color: #00f8ec;
   margin: 5px;
   width: 150px;
   height: 150px;
 }
 
 .div5 {
-  background-color: #f800db;
+  background-color: #0063f8;
   margin: 5px;
   width: 200px;
 }
 
 .div6 {
-  background-color: #f800db;
+  background-color: #8800f8;
   margin: 5px;
   width: 200px;
 }
