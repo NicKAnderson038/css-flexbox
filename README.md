@@ -23,9 +23,10 @@ cross axis
 &
 ```bash
 # flex-direction: row-reverse
-<-----|
-      |
-      |
+main axis <-----|
+                |
+                |
+                cross axis
 ```
 #
 
