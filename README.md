@@ -12,7 +12,7 @@ Example:
 ```bash
 flex-flow: row wrap;
 ```
-flex-direction functions by Main Axis vs. Cross Axis concept
+`flex-direction`: functions by Main Axis vs. Cross Axis concept
 ```bash
 # flex-direction: row
 main axis starts on the Left--->
@@ -47,15 +47,15 @@ Main Axis heads BOTTOM--->UP
 #
 
 
-2. align-items: adjusted by cross axis So if `flex-direction: row` & `alight-items: center`, then the content would be centered coming from the top ---> bottom.
+2. `align-items`: adjusted by cross axis So if `flex-direction: row` & `alight-items: center`, then the content would be centered coming from the top ---> bottom.
 
 #
 
-3. justify-content: adjusted by main-axis
+3. `justify-content`: adjusted by main-axis
 So if `flex-direction: row` & `justify-content: center`, then the content would be centered coming from the left ---> center.
 
 #
 
-4. align-content: defines extra space characteristics based on cross-axis.
+4. `align-content`: defines extra space characteristics based on cross-axis.
 All these `<div>` will have there blank spaces adjusted. So `align-content:space-between` would adjust the space (on view resizing) to keep the `<div>` sizes by forcing them to the ends so a large amount of white space would appear between them.
 
