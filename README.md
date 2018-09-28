@@ -84,5 +84,10 @@ Ex. `flex-direction: row` in parent and set `align-self:flex-start` on the child
 
 flex: 0 1 auto;
 ```
+flex-grow
 - flex-grow will grow will increase the width to fill the whole page.
-- And if the first div is set to `flex-grow:1` and the second div is set to `flex-grow:2` They will both grow but at a 2:1 ratio.
+- And if a div is set to `flex-grow:1` and another div is set to `flex-grow:2` They will both grow but at a 2:1 ratio.
+
+flex-shrink
+- default adjustments are all `flex-shrink:1`.
+- Just like flex-grow, giving another div a setting of `flex-shrink:2` will cause it to shrink 2xmore.
