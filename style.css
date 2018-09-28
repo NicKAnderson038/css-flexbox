@@ -25,6 +25,7 @@ body {
 .div1 {
   background-color: #a1f800;
   margin: 5px;
+  order: 1;
 }
 
 .div2 {
@@ -32,6 +33,7 @@ body {
   margin: 5px;
   width: 150px;
   font-size: 30px;
+  align-self: flex-start;
 }
 
 .div3 {
