@@ -12,7 +12,7 @@ Example:
 ```bash
 flex-flow: row wrap;
 ```
-flex-direction functions by Main Axis vs. cross axis concept
+flex-direction functions by Main Axis vs. Cross Axis concept
 ```bash
 # flex-direction: row
 main axis starts on the Left--->
@@ -20,7 +20,7 @@ main axis starts on the Left--->
                             |
                             cross axis
 ```
-&
+
 ```bash
 # flex-direction: row-reverse
 <-----| Main axis starts from Right
@@ -28,7 +28,7 @@ main axis starts on the Left--->
       |
       cross axis
 ```
-&
+
 ```bash
 # flex-direction: column
 |---->Cross axis starts from Right
@@ -36,7 +36,7 @@ main axis starts on the Left--->
 |                            
 Main Axis heads DOWN
 ```
-&
+
 ```bash
 # flex-direction: column-reverse
 Main Axis heads UP^
