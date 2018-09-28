@@ -78,6 +78,10 @@ Ex. `flex-direction: row` in parent and set `align-self:flex-start` on the child
 2. `flex` - contains 3 properties (`flex-grow`, `flex-shrink`, `flex-basis`)
 ```bash
 # flex default setting
+# 0 = flex-grow
+# 1 = flex-shrink
+# auto = flex-basis
+
 flex: 0 1 auto;
 ```
 - flex-grow will grow will increase the width to fill the whole page.
