@@ -56,5 +56,6 @@ So if `flex-direction: row` & `justify-content: center`, then the content would 
 
 #
 
-4. align-content
+4. align-content: defines extra space characteristics based on cross-axis.
+All these `<div>` will have there blank spaces adjusted. So `align-content:space-between` would adjust the space (on view resizing) to keep the `<div>` sizes by forcing them to the ends so a large amount of white space would appear between them.
 
