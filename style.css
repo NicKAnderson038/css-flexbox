@@ -16,7 +16,7 @@ body {
   padding: 30px;
   height: 500px;
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column wrap;
   align-items: center;
   justify-content: flex-start;
   /* align-content: space-between; */
@@ -53,12 +53,12 @@ body {
   background-color: #0063f8;
   margin: 5px;
   width: 200px;
-  flex: 0 3 auto;
+  flex: 0 1 auto;
 }
 
 .div6 {
   background-color: #8800f8;
   margin: 5px;
   width: 200px;
-  flex: 0 1 auto;
+  flex: 0 1 100px;
 }

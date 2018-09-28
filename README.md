@@ -85,9 +85,15 @@ Ex. `flex-direction: row` in parent and set `align-self:flex-start` on the child
 flex: 0 1 auto;
 ```
 flex-grow
-- flex-grow will grow will increase the width to fill the whole page.
-- And if a div is set to `flex-grow:1` and another div is set to `flex-grow:2` They will both grow but at a 2:1 ratio.
+- default adjustments are all `flex-grow:0`
+- flex-grow will grow will increase the width to fill the whole page
+- And if a div is set to `flex-grow:1` and another div is set to `flex-grow:2` They will both grow but at a 2:1 ratio
 
 flex-shrink
-- default adjustments are all `flex-shrink:1`.
-- Just like flex-grow, giving another div a setting of `flex-shrink:2` will cause it to shrink 2xmore.
+- default adjustments are all `flex-shrink:1`
+- Just like flex-grow, giving another div a setting of `flex-shrink:2` will cause it to shrink 2xmore
+
+flex-basis
+- default adjustments are all `flex-basis:auto`
+- Always the size of the element relating to the Main Axis. So a height setting (effected by flex-direction: column) and width (effected by flex-direction:row)
+- *** heights and width in parent or sibiling divs will affect a div set with `flex-basis:???px`
