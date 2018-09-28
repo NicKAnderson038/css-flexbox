@@ -39,7 +39,7 @@ Main Axis heads DOWN
 &
 ```bash
 # flex-direction: column-reverse
-Main Axis heads UP
+Main Axis heads UP^
 |
 |                          
 |---->Cross axis starts from Right        
