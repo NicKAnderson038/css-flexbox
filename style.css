@@ -14,12 +14,13 @@ body {
   background-color: #f073e1;
   margin: 10px;
   padding: 30px;
-  height: 500px;
+  /* height: 500px; */
   display: flex;
-  flex-flow: row wrap; /*flex-direction flex-wrap*/
-  align-items: center;
+  /*flex-flow == flex-direction & flex-wrap*/
+  flex-flow: column wrap;
+  /* align-items: center;
   justify-content: center;
-  align-content: flex-start;
+  align-content: flex-start; */
 }
 
 .div1 {
