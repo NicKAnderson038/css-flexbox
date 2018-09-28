@@ -56,7 +56,7 @@ And if `flex-direction: row` then the cross axis starts top ---> bottom.
 #
 
 3. justify-content: adjusted by main-axis
-So if `flex-direction: row` & `justify-content: center`, then the content would be centered coming from the left.
+So if `flex-direction: row` & `justify-content: center`, then the content would be centered coming from the left ---> center.
 #
 
 4. align-content
