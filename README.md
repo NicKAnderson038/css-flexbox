@@ -15,18 +15,18 @@ flex-flow: row wrap;
 flex-direction functions by Main Axis vs. cross axis concept
 ```bash
 # flex-direction: row
----> main axis
-|
-|
-cross axis
+main axis starts on the Left--->
+                            |
+                            |
+                            cross axis
 ```
 &
 ```bash
 # flex-direction: row-reverse
-main axis <-----|
-                |
-                |
-                cross axis
+<-----| Main axis starts from Right
+      |
+      |
+      cross axis
 ```
 #
 
