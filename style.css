@@ -16,11 +16,10 @@ body {
   padding: 30px;
   height: 500px;
   display: flex;
-  /*flex-flow == flex-direction & flex-wrap*/
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  align-content: space-between;
+  /* align-content: space-between; */
 }
 
 .div1 {
